@@ -3,4 +3,4 @@
 Данный блог базируется на Poole
 
 # Ресурс доступен по ссылке
-stanislavec.github.io
+https://stanislavec.github.io/
