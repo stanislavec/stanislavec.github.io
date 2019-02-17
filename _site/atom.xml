@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Stanislav Kryzhanovsky</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-02-17T16:05:50+03:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Stanislav Kryzhanovsky</name>
+   <email>blizzak007@yandex.ru</email>
+ </author>
+
+ 
+ <entry>
+   <title>С чего-то нужно начинать</title>
+   <link href="http://localhost:4000/2019/02/17/introduction/"/>
+   <updated>2019-02-17T00:00:00+03:00</updated>
+   <id>http://localhost:4000/2019/02/17/introduction</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;typeof PERSONAL_BLOG_PAGE !== ‘undefined’!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+</content>
+ </entry>
+ 
+
+</feed>

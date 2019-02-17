@@ -1,0 +1,38 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Stanislav Kryzhanovsky
+tagline:             Personal page blog
+url:                 http://getpoole.com
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Stanislav Kryzhanovsky
+  url:               https://vk.com/krystanis
+  email:             blizzak007@yandex.ru
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/stanislavec/blog
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Pages
+pages_list:
+  О блоге: '/about'
+  Архив записей: '/archive'
+  Лента: '/atom.xml'
