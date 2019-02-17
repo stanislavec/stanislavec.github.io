@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Stanislav Kryzhanovsky
 tagline:             Personal blog
 url:                 https://stanislavec.github.io/
-paginate:            10
+paginate:            9
 baseurl:             ""
 
 # Assets
