@@ -115,3 +115,12 @@ a[href^="#fnref:"] {
   font-size: 1.25rem;
   font-weight: 300;
 }
+
+.text-white {
+  color: white;
+}
+
+.text-white:hover {
+  color: white;
+  text-decoration: none;
+}
