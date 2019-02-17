@@ -8,7 +8,7 @@ layout: default
     style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('{{ page.image }}');"
   >
     <h1 class="post-title">{{ page.title }}</h1>
-    <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+    <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%d-%m-%Y" }}</time>
   </div>
   {{ content }}
 
@@ -25,7 +25,7 @@ layout: default
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%d/%Y" }}</time></small>
         </a>
       </li>
     {% endfor %}
