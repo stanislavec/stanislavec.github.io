@@ -10,8 +10,28 @@ nav {
   }
 }
 
-.social-buttons button {
-  width: 120px;
+.social-buttons {
+  a {
+    outline: none;
+  }
+
+  a:focus,
+  a:hover,
+  button:focus,
+  button:hover,
+  .btn.active.focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn:active.focus,
+  .btn:active:focus,
+  .btn:focus {
+    outline: none;
+    text-decoration: unset;
+    outline-offset: unset;
+  }
+  button {
+    width: 120px;
+  }
 }
 
 @media (max-width: 767px) {
