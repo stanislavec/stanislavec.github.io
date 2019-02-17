@@ -7,7 +7,7 @@
 
   <title>
     
-      С чего-то нужно начинать &middot; Stanislav Kryzhanovsky
+      Начнем? &middot; Stanislav Kryzhanovsky
     
   </title>
 
@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="/css/sticky-footer.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 </head>
 
 
@@ -26,7 +27,7 @@
 
     <div class="container content">
       <header class="masthead">
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,12 +47,6 @@
                   &nbsp;&nbsp;&nbsp;
                   <li><a href="/about">О блоге</a></li>
                 
-                  &nbsp;&nbsp;&nbsp;
-                  <li><a href="/archive">Архив записей</a></li>
-                
-                  &nbsp;&nbsp;&nbsp;
-                  <li><a href="/atom.xml">Лента</a></li>
-                
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -60,13 +55,60 @@
 
       <main>
         <article class="post">
-  <h1 class="post-title">С чего-то нужно начинать</h1>
-  <time datetime="2019-02-17T00:00:00+03:00" class="post-date">17 Feb 2019</time>
-  <p><em>typeof PERSONAL_BLOG_PAGE !== ‘undefined’!</em></p>
+  <div
+    class="post-wrapper"
+    style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('/img/typewriter.jpg');"
+  >
+    <h1 class="post-title">Начнем?</h1>
+    <time datetime="2019-02-17T00:00:00+03:00" class="post-date">17 Feb 2019</time>
+  </div>
+  <blockquote>
+  <p>typeof PERSONAL_BLOG_PAGE !== ‘undefined’!</p>
+</blockquote>
+
+<h3 id="Кто-я">Кто я?</h3>
+
+<p>Меня зовут Стас, и я занимаюсь frontend-разработкой.
+Традиционно, здесь перечисляют всякие штуки, с которыми приходится/приходилось работать - их есть у меня!</p>
+
+<ul>
+  <li><a href="https://ru.vuejs.org/">VueJS</a></li>
+  <li><a href="https://learn.javascript.ru/intro">Native JS</a></li>
+  <li><a href="https://jquery.com/">jQuery</a></li>
+  <li><a href="https://angular.io/">Angular</a></li>
+  <li><a href="https://www.w3schools.com/html/default.asp">HTML/CSS</a></li>
+  <li><a href="https://ru.wordpress.org/">Wordpress</a></li>
+</ul>
+
+<h3 id="Как-так-получилось">Как так получилось?</h3>
+
+<p>Желание вести блог или тому подобное у меня появилось довольно давно, но все никак не было времени и возможности решить, какой инструмент для этого использовать, о чем писать, как сформировать и в каком виде информацию доносить до конечного читателя.</p>
+
+<p>Так получилось, что в последнее время, я очень плотно занимаюсь разработкой, в ходе чего, постоянно имею дело с чем-то новым, будь то фреймворк, отдельная бибилиотека или даже обычное правило css - именно это и привело меня к решению завести свою страничку/блог на гитхабе.</p>
+
+<p>Данный блог реализован на связке Jekyll &amp; Github Pages.</p>
+
+<p>Оригинальный автор исходной темы: <a href="https://github.com/mdo">Марк Отто</a>.</p>
+
+<p>А я буду вносить некоторые доработки :)</p>
+
+<h3 id="Что-тут-будет">Что тут будет?</h3>
+
+<p>В ближайшее время я вижу цель постить сюда что-то новое для меня самого, потенциально интересное и классное: путешествия, различные фотки и посты с мероприятий, которые я периодически посещаю и т.д. У меня нет цели писать много и ежедневно, цель - получать удовольствие!</p>
+
+<h3 id="И-какие-цели">И какие цели?</h3>
+
+<p>Ближайшая цель для меня - доработать данный ресурс, умеренно сочетая рабочее и личное время. Мне чрезвычайно инетресно сделать responsive-сайт, доступный для просмотра с различных устройств, сочетающий в себе какие-то прикольные визуальные решения, в которых я, к сожалению, полный профан :-(</p>
+
+<p>Однако, в данном случае всегда есть место для эксперимента!</p>
 
 <hr />
 
-</article>
+
+  <button class="back-button" onclick="history.back();">
+    <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+    <span>Назад</span>
+  </button>
 
 
 
@@ -74,10 +116,12 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2019-02-17T18:05:48+03:00">2019</time>. All rights reserved.
+          &copy; <time datetime="2019-02-17T22:02:59+03:00">2019</time>. Stanislav Kryzhanovsky
         </small>
-        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-        <button type="button" class="btn btn-primary"><i class="fa fa-github --pr-10"></i><a class="text-white" href="https://github.com/stanislavec">GitHub</a></button>
+        <div class="social-buttons">
+          <button type="button" class="btn btn-primary --mr-10"><i class="fa fa-github --pr-10"></i><a class="text-white" href="https://github.com/stanislavec">GitHub</a></button>
+          <button type="button" class="btn btn-primary"><i class="fa fa-instagram --pr-10"></i><a class="text-white" href="https://www.instagram.com/stanislaveec/">Instagram</a></button>
+        </div>
       </footer>
     </div>
 

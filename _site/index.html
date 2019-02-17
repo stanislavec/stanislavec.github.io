@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="/css/sticky-footer.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 </head>
 
 
@@ -26,7 +27,7 @@
 
     <div class="container content">
       <header class="masthead">
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,12 +47,6 @@
                   &nbsp;&nbsp;&nbsp;
                   <li><a href="/about">О блоге</a></li>
                 
-                  &nbsp;&nbsp;&nbsp;
-                  <li><a href="/archive">Архив записей</a></li>
-                
-                  &nbsp;&nbsp;&nbsp;
-                  <li><a href="/atom.xml">Лента</a></li>
-                
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -61,19 +56,20 @@
       <main>
         <div class="posts">
   
-  <article class="post">
-    <h1 class="post-title">
-      <a href="/2019/02/17/introduction/">
-        С чего-то нужно начинать
-      </a>
-    </h1>
+  <article class="post col-md-4 col-sm-6 col-xs-12">
+    <a href="/2019/02/17/introduction/">
+      <div
+        class="post-box"
+        style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('/img/typewriter.jpg');"
+      >
+        <h1 class="post-title">
+          Начнем?
+        </h1>
 
-    <time datetime="2019-02-17T00:00:00+03:00" class="post-date">17 Feb 2019</time>
-
-    <p><em>typeof PERSONAL_BLOG_PAGE !== ‘undefined’!</em></p>
-
-<hr />
-
+        <time datetime="2019-02-17T00:00:00+03:00" class="post-date">17 Feb 2019</time>
+        
+      </div>
+    </a>
   </article>
   
 </div>
@@ -91,10 +87,12 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2019-02-17T18:05:48+03:00">2019</time>. All rights reserved.
+          &copy; <time datetime="2019-02-17T22:02:59+03:00">2019</time>. Stanislav Kryzhanovsky
         </small>
-        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-        <button type="button" class="btn btn-primary"><i class="fa fa-github --pr-10"></i><a class="text-white" href="https://github.com/stanislavec">GitHub</a></button>
+        <div class="social-buttons">
+          <button type="button" class="btn btn-primary --mr-10"><i class="fa fa-github --pr-10"></i><a class="text-white" href="https://github.com/stanislavec">GitHub</a></button>
+          <button type="button" class="btn btn-primary"><i class="fa fa-instagram --pr-10"></i><a class="text-white" href="https://www.instagram.com/stanislaveec/">Instagram</a></button>
+        </div>
       </footer>
     </div>
 

@@ -4,7 +4,7 @@
  <title>Stanislav Kryzhanovsky</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-02-17T18:05:48+03:00</updated>
+ <updated>2019-02-17T22:02:59+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Stanislav Kryzhanovsky</name>
@@ -13,11 +13,49 @@
 
  
  <entry>
-   <title>С чего-то нужно начинать</title>
+   <title>Начнем?</title>
    <link href="http://localhost:4000/2019/02/17/introduction/"/>
    <updated>2019-02-17T00:00:00+03:00</updated>
    <id>http://localhost:4000/2019/02/17/introduction</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;typeof PERSONAL_BLOG_PAGE !== ‘undefined’!&lt;/em&gt;&lt;/p&gt;
+   <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;typeof PERSONAL_BLOG_PAGE !== ‘undefined’!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;Кто-я&quot;&gt;Кто я?&lt;/h3&gt;
+
+&lt;p&gt;Меня зовут Стас, и я занимаюсь frontend-разработкой.
+Традиционно, здесь перечисляют всякие штуки, с которыми приходится/приходилось работать - их есть у меня!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ru.vuejs.org/&quot;&gt;VueJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learn.javascript.ru/intro&quot;&gt;Native JS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://angular.io/&quot;&gt;Angular&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/html/default.asp&quot;&gt;HTML/CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ru.wordpress.org/&quot;&gt;Wordpress&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;Как-так-получилось&quot;&gt;Как так получилось?&lt;/h3&gt;
+
+&lt;p&gt;Желание вести блог или тому подобное у меня появилось довольно давно, но все никак не было времени и возможности решить, какой инструмент для этого использовать, о чем писать, как сформировать и в каком виде информацию доносить до конечного читателя.&lt;/p&gt;
+
+&lt;p&gt;Так получилось, что в последнее время, я очень плотно занимаюсь разработкой, в ходе чего, постоянно имею дело с чем-то новым, будь то фреймворк, отдельная бибилиотека или даже обычное правило css - именно это и привело меня к решению завести свою страничку/блог на гитхабе.&lt;/p&gt;
+
+&lt;p&gt;Данный блог реализован на связке Jekyll &amp;amp; Github Pages.&lt;/p&gt;
+
+&lt;p&gt;Оригинальный автор исходной темы: &lt;a href=&quot;https://github.com/mdo&quot;&gt;Марк Отто&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;А я буду вносить некоторые доработки :)&lt;/p&gt;
+
+&lt;h3 id=&quot;Что-тут-будет&quot;&gt;Что тут будет?&lt;/h3&gt;
+
+&lt;p&gt;В ближайшее время я вижу цель постить сюда что-то новое для меня самого, потенциально интересное и классное: путешествия, различные фотки и посты с мероприятий, которые я периодически посещаю и т.д. У меня нет цели писать много и ежедневно, цель - получать удовольствие!&lt;/p&gt;
+
+&lt;h3 id=&quot;И-какие-цели&quot;&gt;И какие цели?&lt;/h3&gt;
+
+&lt;p&gt;Ближайшая цель для меня - доработать данный ресурс, умеренно сочетая рабочее и личное время. Мне чрезвычайно инетресно сделать responsive-сайт, доступный для просмотра с различных устройств, сочетающий в себе какие-то прикольные визуальные решения, в которых я, к сожалению, полный профан :-(&lt;/p&gt;
+
+&lt;p&gt;Однако, в данном случае всегда есть место для эксперимента!&lt;/p&gt;
 
 &lt;hr /&gt;
 </content>

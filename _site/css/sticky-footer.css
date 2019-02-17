@@ -22,7 +22,8 @@ body {
 
 @media (max-width: 767px) {
   .footer {
-    /* width: calc(100% - 30px); */
+    display: flex;
+    flex-direction: column;
   }
 }
 
