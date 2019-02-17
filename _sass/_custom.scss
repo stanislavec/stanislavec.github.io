@@ -1,6 +1,13 @@
 nav {
   text-transform: uppercase;
   font-size: 12px;
+
+  .brand-image {
+    padding: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .social-buttons button {
