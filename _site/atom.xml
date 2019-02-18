@@ -4,13 +4,45 @@
  <title>Stanislav Kryzhanovsky</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-02-18T00:33:35+03:00</updated>
+ <updated>2019-02-18T16:16:44+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Stanislav Kryzhanovsky</name>
    <email>blizzak007@yandex.ru</email>
  </author>
 
+ 
+ <entry>
+   <title>Админка в Jekyll</title>
+   <link href="http://localhost:4000/2019/02/18/admin-panel/"/>
+   <updated>2019-02-18T00:00:00+03:00</updated>
+   <id>http://localhost:4000/2019/02/18/admin-panel</id>
+   <content type="html">&lt;h3 id=&quot;Удалось-установить-админку&quot;&gt;Удалось установить админку&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Пополняем Gemfile следующим содержимым:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;group :jekyll_plugins do
+
+gem &quot;jekyll-admin&quot;
+
+end
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Теперь в моем распоряжении удобный интерфейс для публикации!&lt;/p&gt;
+
+&lt;p&gt;Подводные камни - установка большого количества зависимостей + фиксы различных ошибок. Однако, с помощью гугла все решается довольно легко :-)&lt;/p&gt;
+
+&lt;p&gt;Оставлю здесь ссылочку на оригинальную статью:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://htmlblog.github.io/plugin-adminka-dlja-jekyll&quot;&gt;Html Blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Начнем?</title>
