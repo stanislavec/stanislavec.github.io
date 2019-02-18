@@ -24,7 +24,7 @@ author:
 # Custom vars
 version:             1.0.0
 github:
-  repo:              https://github.com/stanislavec/blog
+  repo:              https://github.com/stanislavec/stanislavec.github.io
 
 # Gems
 plugins:
