@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Stanislav Kryzhanovsky</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2019-02-18T16:26:37+03:00</updated>
- <id>http://localhost:4000</id>
+ <link href="https://stanislavec.github.io//atom.xml" rel="self"/>
+ <link href="https://stanislavec.github.io//"/>
+ <updated>2019-02-18T16:47:03+03:00</updated>
+ <id>https://stanislavec.github.io/</id>
  <author>
    <name>Stanislav Kryzhanovsky</name>
    <email>blizzak007@yandex.ru</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Админка в Jekyll</title>
-   <link href="http://localhost:4000/2019/02/18/admin-panel/"/>
+   <link href="https://stanislavec.github.io//2019/02/18/admin-panel/"/>
    <updated>2019-02-18T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2019/02/18/admin-panel</id>
+   <id>https://stanislavec.github.io//2019/02/18/admin-panel</id>
    <content type="html">&lt;h3 id=&quot;Удалось-установить-админку&quot;&gt;Удалось установить админку&lt;/h3&gt;
 
 &lt;hr /&gt;
@@ -46,9 +46,9 @@ end
  
  <entry>
    <title>Начнем?</title>
-   <link href="http://localhost:4000/2019/02/17/introduction/"/>
+   <link href="https://stanislavec.github.io//2019/02/17/introduction/"/>
    <updated>2019-02-17T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2019/02/17/introduction</id>
+   <id>https://stanislavec.github.io//2019/02/17/introduction</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;typeof PERSONAL_BLOG_PAGE !== ‘undefined’!&lt;/p&gt;
 &lt;/blockquote&gt;
