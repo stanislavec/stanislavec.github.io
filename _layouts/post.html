@@ -20,12 +20,17 @@ layout: default
 {% if site.related_posts != empty %}
 <aside class="related">
   <h3>Другие посты</h3>
-  <ul class="related-posts">
+  <ul class="related-posts row">
     {% for post in site.related_posts limit:3 %}
-      <li>
+      <li class="col-md-3 col-sm-4 col-xs-12">
         <a href="{{ site.baseurl }}{{ post.url }}">
-          {{ post.title }}
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time></small>
+          <div
+            class="related-post-image"
+            style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('{{ page.image }}');"
+          >
+            {{ post.title }}
+            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d-%m-%Y" }}</time></small>
+          </div>
         </a>
       </li>
     {% endfor %}

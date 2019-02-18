@@ -134,12 +134,17 @@
 
 <aside class="related">
   <h3>Другие посты</h3>
-  <ul class="related-posts">
+  <ul class="related-posts row">
     
-      <li>
+      <li class="col-md-3 col-sm-4 col-xs-12">
         <a href="/2019/02/18/admin-panel/">
-          Админка в Jekyll
-          <small><time datetime="2019-02-18T00:00:00+03:00">18-02-2019</time></small>
+          <div
+            class="related-post-image"
+            style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('/img/typewriter.jpg');"
+          >
+            Админка в Jekyll
+            <small><time datetime="2019-02-18T00:00:00+03:00">18-02-2019</time></small>
+          </div>
         </a>
       </li>
     
@@ -151,11 +156,12 @@
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="2019-02-18T18:59:01+03:00">2019</time>. Stanislav Kryzhanovsky
+          &copy; <time datetime="2019-02-18T22:21:08+03:00">2019</time>. Stanislav Kryzhanovsky
         </small>
         <div class="social-buttons">
-          <a class="text-white" href="https://github.com/stanislavec"><button type="button" class="btn btn-github --mr-10"><i class="fa fa-github --pr-10"></i>GitHub</button></a>
-          <a class="text-white" href="https://www.instagram.com/stanislaveec/"><button type="button" class="btn btn-instagram"><i class="fa fa-instagram --pr-10"></i>Instagram</button></a>
+          <a class="text-white" href="https://github.com/stanislavec"><button type="button" class="btn btn-github --mr-10"><i class="fa fa-github --pr-10"></i><span class="hidden-xs">GitHub</span></button></a>
+          <a class="text-white" href="https://www.instagram.com/stanislaveec/"><button type="button" class="btn btn-instagram --mr-10"><i class="fa fa-instagram --pr-10"></i><span class="hidden-xs">Instagram</span></button></a>
+          <a class="text-white" href="mailto: blizzak007@yandex.ru"><button type="button" class="btn btn-primary"><i class="fa fa-envelope-o --pr-10"></i><span class="hidden-xs">Mail me</span></button></a>
         </div>
       </footer>
     </div>

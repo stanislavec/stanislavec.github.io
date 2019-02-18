@@ -37,6 +37,24 @@ nav {
 @media (max-width: 767px) {
   .social-buttons {
     margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 0;
+
+    button {
+      margin-right: unset !important;
+      display: flex;
+      width: 50px;
+      height: 50px;
+      justify-content: center;
+      font-size: x-large;
+      border: none;
+
+      i {
+        padding: unset;
+      }
+    }
   }
 }
 
@@ -129,7 +147,7 @@ main {
       font-size: 20px;
       cursor: pointer;
       outline: none;
-      margin: 20px auto 0;
+      margin: 20px auto;
       display: block;
       opacity: 0.8;
 
@@ -137,5 +155,39 @@ main {
         opacity: 1;
       }
     }
+  }
+}
+
+.related {
+  * {
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+  }
+  ul {
+    li {
+      margin-bottom: 10px;
+    }
+  }
+  .related-post-image {
+    min-height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 15px;
+    color: white;
+    font-weight: 300;
+    font-size: 24px;
+    opacity: 0.8;
+  }
+
+  .related-post-image:hover {
+    opacity: 1;
+    font-size: 25px;
   }
 }
