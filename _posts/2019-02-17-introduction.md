@@ -2,6 +2,11 @@
 layout: post
 title: Начнем?
 image: /img/typewriter.jpg
+categories: [Общее]
+tags:
+  - Jekyll
+  - Start
+  - Blog
 ---
 
 > typeof PERSONAL_BLOG_PAGE !== 'undefined'!

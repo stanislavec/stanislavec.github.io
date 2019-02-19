@@ -4,7 +4,7 @@
  <title>Stanislav Kryzhanovsky</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-02-19T17:52:13+03:00</updated>
+ <updated>2019-02-20T01:24:12+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Stanislav Kryzhanovsky</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Админка в Jekyll</title>
-   <link href="http://localhost:4000/2019/02/18/admin-panel/"/>
+   <link href="http://localhost:4000/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/2019/02/18/admin-panel/"/>
    <updated>2019-02-18T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2019/02/18/admin-panel</id>
+   <id>http://localhost:4000/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/2019/02/18/admin-panel</id>
    <content type="html">&lt;h3 id=&quot;Удалось-установить-админку&quot;&gt;Удалось установить админку&lt;/h3&gt;
 
 &lt;hr /&gt;
@@ -46,9 +46,9 @@ end
  
  <entry>
    <title>Начнем?</title>
-   <link href="http://localhost:4000/2019/02/17/introduction/"/>
+   <link href="http://localhost:4000/%D0%9E%D0%B1%D1%89%D0%B5%D0%B5/2019/02/17/introduction/"/>
    <updated>2019-02-17T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2019/02/17/introduction</id>
+   <id>http://localhost:4000/%D0%9E%D0%B1%D1%89%D0%B5%D0%B5/2019/02/17/introduction</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;typeof PERSONAL_BLOG_PAGE !== ‘undefined’!&lt;/p&gt;
 &lt;/blockquote&gt;

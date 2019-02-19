@@ -19,8 +19,9 @@
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+              <li><a href="/tags">Теги</a></li>
+              <li><a href="/categories">Категории</a></li>
               {% for page in site.pages_list %}
-                &nbsp;&nbsp;&nbsp;
                 <li><a href="{{ page[1]  }}">{{ page[0] }}</a></li>
               {% endfor %}
             </ul>
@@ -53,8 +54,6 @@
        ga('send', 'pageview');
      </script>
     {% endif %}
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="/js/footer.js"></script>
   </body>

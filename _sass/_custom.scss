@@ -2,6 +2,42 @@
   margin-top: 105px;
 }
 
+.tags-post {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  .label-tags {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 0 5px 5px 0;
+
+    &:last-child {
+      margin: 0 0 5px 0;
+    }
+  }
+}
+
+.dark-list {
+  padding: 10px;
+
+  a {
+    margin: 0 5px 5px 0;
+
+    &:last-child {
+      margin: 0 0 5px 0;
+    }
+  }
+  .label-tags {
+    background-color: rgba(0, 0, 0, 0.4)!important;
+  }
+
+  .label-tags:hover,
+  .label-tags:focus {
+    background-color: rgba(0, 0, 0, 0.8)!important;
+  }
+}
+
 nav {
   text-transform: uppercase;
   font-size: 12px;
@@ -119,7 +155,7 @@ nav {
 
   .post-box {
     min-height: 250px;
-    padding: 30px 10px 5px 10px;
+    padding: 30px 10px 15px 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -152,6 +188,66 @@ nav {
 
 /* Posts */
 main {
+
+  .categories-list {
+    display: flex;
+    flex-direction: column;
+
+    * {
+      -webkit-transition: .3s ease-in-out;
+      -moz-transition: .3s ease-in-out;
+      -o-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+
+    h3 {
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .category-wrapper {
+      .post-box {
+        min-height: 250px;
+        padding: 30px 10px 15px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        opacity: 0.8;
+
+        &:hover {
+          opacity: 1;
+          cursor: pointer;
+        }
+
+        a, h1 {
+          color: white;
+          font-size: 32px;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: none;
+            font-size: 33px;
+          }
+        }
+      }
+    }
+  }
+
   .post {
     * {
       -webkit-transition: .3s ease-in-out;

@@ -13,7 +13,7 @@
 
   <title>
     
-      Админка в Jekyll &middot; Stanislav Kryzhanovsky
+      Категории &middot; Stanislav Kryzhanovsky
     
   </title>
   <link rel="stylesheet" href="/styles.css">
@@ -40,6 +40,7 @@
   </script>
   <noscript><div><img src="https://mc.yandex.ru/watch/52425124" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
   <!-- /Yandex.Metrika counter -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 
@@ -59,8 +60,9 @@
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+              <li><a href="/tags">Теги</a></li>
+              <li><a href="/categories">Категории</a></li>
               
-                &nbsp;&nbsp;&nbsp;
                 <li><a href="/about">О блоге</a></li>
               
             </ul>
@@ -70,71 +72,93 @@
     </header>
     <div class="container content">
       <main>
-        <article class="post">
-  <div
-    class="post-wrapper"
-    style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('/img/programming.png');"
-  >
-    <h1 class="post-title">Админка в Jekyll</h1>
-    <time datetime="2019-02-18T00:00:00+03:00" class="post-date">18-02-2019</time>
+        <div class="categories-list">
+  <h2>Посты по категориям</h2>
+  <div class="tags-post dark-list">
+  
+    <a class="anchor-href" href="#Общее"><span class="label label-tags">#Общее</span></a>
+  
+    <a class="anchor-href" href="#Разработка"><span class="label label-tags">#Разработка</span></a>
+  
   </div>
-  <h3 id="Удалось-установить-админку">Удалось установить админку</h3>
+  <hr/>
 
-<hr />
-
-<p>Пополняем Gemfile следующим содержимым:</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>group :jekyll_plugins do
-
-gem "jekyll-admin"
-
-end
-</code></pre></div></div>
-
-<hr />
-
-<p>Теперь в моем распоряжении удобный интерфейс для публикации!</p>
-
-<p>Подводные камни - установка большого количества зависимостей + фиксы различных ошибок. Однако, с помощью гугла все решается довольно легко :-)</p>
-
-<p>Оставлю здесь ссылочку на оригинальную статью:</p>
-
-<ul>
-  <li><a href="https://htmlblog.github.io/plugin-adminka-dlja-jekyll">Html Blog</a></li>
-</ul>
-
-
-  <button class="back-button" onclick="history.back();">
-    <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
-    <span>Назад</span>
-  </button>
-
-
-<aside class="related">
-  <h3>Другие посты</h3>
-  <ul class="related-posts row">
+  <h3 id="Общее">Общее</h3>
+  <div class="category-wrapper row">
     
-      <li class="col-md-3 col-sm-4 col-xs-12">
-        <a href="/2019/02/17/introduction/">
+      <article id="" class="post col-md-4 col-sm-6 col-xs-12">
+        <a href="/%D0%9E%D0%B1%D1%89%D0%B5%D0%B5/2019/02/17/introduction/">
           <div
-            class="related-post-image"
+            class="post-box"
             style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('/img/typewriter.jpg');"
           >
-            Начнем?
-            <small><time datetime="2019-02-17T00:00:00+03:00">17-02-2019</time></small>
+            <h1 class="post-title">
+              Начнем?
+            </h1>
+
+            <time datetime="2019-02-17T00:00:00+03:00" class="post-date">17-02-2019</time>
+            
+              <div class="tags-post">
+              
+                <span class="label label-tags">#Jekyll</span>
+              
+                <span class="label label-tags">#Start</span>
+              
+                <span class="label label-tags">#Blog</span>
+              
+              </div>
+            
           </div>
         </a>
-      </li>
+      </article>
     
-  </ul>
-</aside>
+  </div>
 
+  <h3 id="Разработка">Разработка</h3>
+  <div class="category-wrapper row">
+    
+      <article id="" class="post col-md-4 col-sm-6 col-xs-12">
+        <a href="/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/2019/02/18/admin-panel/">
+          <div
+            class="post-box"
+            style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('/img/programming.png');"
+          >
+            <h1 class="post-title">
+              Админка в Jekyll
+            </h1>
+
+            <time datetime="2019-02-18T00:00:00+03:00" class="post-date">18-02-2019</time>
+            
+              <div class="tags-post">
+              
+                <span class="label label-tags">#Jekyll</span>
+              
+                <span class="label label-tags">#Admin</span>
+              
+                <span class="label label-tags">#Coding</span>
+              
+              </div>
+            
+          </div>
+        </a>
+      </article>
+    
+  </div>
+
+</div>
+<script>
+  jQuery(".anchor-href").click(function(e) {
+    e.preventDefault();
+    var aid = jQuery(this).attr("href");
+    jQuery('html,body').animate({scrollTop: jQuery(aid).offset().top - 75},'slow');
+  });
+</script>
 
       </main>
     </div>
     <footer class="footer">
       <small>
-        &copy; <time datetime="2019-02-19T17:52:13+03:00">2019</time>. Stanislav Kryzhanovsky
+        &copy; <time datetime="2019-02-20T01:24:12+03:00">2019</time>. Stanislav Kryzhanovsky
       </small>
       <div class="social-buttons">
         <a class="text-white" href="https://github.com/stanislavec"><button type="button" class="btn btn-github --mr-10"><i class="fa fa-github --pr-10"></i><span class="hidden-xs">GitHub</span></button></a>
@@ -143,8 +167,6 @@ end
       </div>
     </footer>
     
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="/js/footer.js"></script>
   </body>

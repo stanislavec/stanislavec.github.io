@@ -2,6 +2,11 @@
 title: Админка в Jekyll
 image: "/img/programming.png"
 layout: post
+categories: [Разработка]
+tags:
+  - Jekyll
+  - Admin
+  - Coding
 ---
 
 ### Удалось установить админку
