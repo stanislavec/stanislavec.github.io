@@ -12,10 +12,12 @@ html,
 body {
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: $root-font-family!important;
 }
 
 html {
-  font-family: $root-font-family;
+  // font-family: $root-font-family;
   font-size: $root-font-size;
   line-height: $root-line-height;
 
