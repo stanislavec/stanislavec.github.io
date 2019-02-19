@@ -15,7 +15,7 @@ nav {
   }
 
   .navbar-toggle i {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .brand-image {
@@ -44,6 +44,12 @@ nav {
 
     &:hover {
       color: black;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .navbar-nav {
+      margin: 7.5px 0 0 0;
     }
   }
 }
