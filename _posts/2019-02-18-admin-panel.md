@@ -2,7 +2,7 @@
 title: Админка в Jekyll
 image: "/img/programming.png"
 layout: post
-categories: [Разработка]
+categories: [develop]
 tags:
   - Jekyll
   - Admin

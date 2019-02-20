@@ -2,7 +2,7 @@
 layout: post
 title: Начнем?
 image: /img/typewriter.jpg
-categories: [Общее]
+categories: [common]
 tags:
   - Jekyll
   - Start

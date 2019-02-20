@@ -4,7 +4,7 @@
  <title>Stanislav Kryzhanovsky</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-02-20T19:56:08+03:00</updated>
+ <updated>2019-02-20T21:15:56+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Stanislav Kryzhanovsky</name>
@@ -13,10 +13,51 @@
 
  
  <entry>
+   <title>Теги и категории</title>
+   <link href="http://localhost:4000/develop/2019/02/20/tags-categories/"/>
+   <updated>2019-02-20T00:00:00+03:00</updated>
+   <id>http://localhost:4000/develop/2019/02/20/tags-categories</id>
+   <content type="html">&lt;h3 id=&quot;Используем-теги-и-категории-постов&quot;&gt;Используем теги и категории постов&lt;/h3&gt;
+
+&lt;p&gt;Jekyll позволяет граппировать посты по категориям и добавлять в кажды пост индивидуальные теги. Это очень удобно и позволяет читателю быстро найти интересующую его тему в творениях автора.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Теги и категории являются глобальными переменными в сайте, т.е. ими очень легко оперировать при помощи циклов if и for!&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Категории и теги могут прописываться в каждый пост следующим образом:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: post
+title: Заголовок
+categories: [Общее]
+tags:
+  - Jekyll
+  - Start
+  - Blog
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Это позволяет авторам организовать шаблоны для работы с ними, что добавляет блогу удобство и функциональность!&lt;/p&gt;
+
+&lt;p&gt;Подробнее об использовании переменных в Jekyll можно почитать &lt;a href=&quot;http://prgssr.ru/documentation/12_variables&quot;&gt;тут&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Админка в Jekyll</title>
-   <link href="http://localhost:4000/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/2019/02/18/admin-panel/"/>
+   <link href="http://localhost:4000/develop/2019/02/18/admin-panel/"/>
    <updated>2019-02-18T00:00:00+03:00</updated>
-   <id>http://localhost:4000/%D0%A0%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0/2019/02/18/admin-panel</id>
+   <id>http://localhost:4000/develop/2019/02/18/admin-panel</id>
    <content type="html">&lt;h3 id=&quot;Удалось-установить-админку&quot;&gt;Удалось установить админку&lt;/h3&gt;
 
 &lt;hr /&gt;
@@ -46,9 +87,9 @@ end
  
  <entry>
    <title>Начнем?</title>
-   <link href="http://localhost:4000/%D0%9E%D0%B1%D1%89%D0%B5%D0%B5/2019/02/17/introduction/"/>
+   <link href="http://localhost:4000/common/2019/02/17/introduction/"/>
    <updated>2019-02-17T00:00:00+03:00</updated>
-   <id>http://localhost:4000/%D0%9E%D0%B1%D1%89%D0%B5%D0%B5/2019/02/17/introduction</id>
+   <id>http://localhost:4000/common/2019/02/17/introduction</id>
    <content type="html">&lt;blockquote&gt;
   &lt;p&gt;typeof PERSONAL_BLOG_PAGE !== ‘undefined’!&lt;/p&gt;
 &lt;/blockquote&gt;

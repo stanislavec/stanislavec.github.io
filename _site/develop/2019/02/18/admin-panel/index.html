@@ -13,7 +13,7 @@
 
   <title>
     
-      О блоге &middot; Stanislav Kryzhanovsky
+      Админка в Jekyll &middot; Stanislav Kryzhanovsky
     
   </title>
   <link rel="stylesheet" href="/styles.css">
@@ -72,38 +72,77 @@
     </header>
     <div class="container content">
       <main>
-        <article class="page">
-  <h1 class="page-title">О блоге</h1>
-  <hr />
-
-<h3 id="Кто-я">Кто я?</h3>
-
-<p>Меня зовут Стас, и я занимаюсь frontend-разработкой.</p>
-
-<p>Традиционно, здесь перечисляют всякие штуки, с которыми приходится работать или приходилось ранее:</p>
-
-<ul>
-  <li><a href="https://ru.vuejs.org/">VueJS</a></li>
-  <li><a href="https://learn.javascript.ru/intro">Native JS</a></li>
-  <li><a href="https://jquery.com/">jQuery</a></li>
-  <li><a href="https://angular.io/">Angular</a></li>
-  <li><a href="https://www.w3schools.com/html/default.asp">HTML/CSS</a></li>
-  <li><a href="https://ru.wordpress.org/">Wordpress</a></li>
-</ul>
-
-<h3 id="Как-так-получилось">Как так получилось?</h3>
-
-<p>Желание вести блог или тому подобное у меня появилось довольно давно, но все никак не было времени и возможности решить, какой инструмент для этого использовать, о чем писать, как сформировать и в каком виде информацию доносить до конечного читателя.</p>
-
-<p>Так получилось, что в последнее время, я очень плотно занимаюсь разработкой, в ходе чего, постоянно имею дело с чем-то новым, будь то фреймворк, отдельная бибилиотека или даже обычное правило css - именно это и привело меня к решению завести свою страничку/блог на гитхабе.</p>
-
-<p>Данный блог реализован на связке Jekyll &amp; Github Pages.</p>
-
-<p>Оригинальный автор исходной темы Jekyll: <a href="https://github.com/mdo">Марк Отто</a>.</p>
+        <article class="post">
+  <div
+    class="post-wrapper"
+    style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('/img/programming.png');"
+  >
+    <h1 class="post-title">Админка в Jekyll</h1>
+    <time datetime="2019-02-18T00:00:00+03:00" class="post-date">18-02-2019</time>
+  </div>
+  <h3 id="Удалось-установить-админку">Удалось установить админку</h3>
 
 <hr />
 
-</article>
+<p>Пополняем Gemfile следующим содержимым:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>group :jekyll_plugins do
+
+gem "jekyll-admin"
+
+end
+</code></pre></div></div>
+
+<hr />
+
+<p>Теперь в моем распоряжении удобный интерфейс для публикации!</p>
+
+<p>Подводные камни - установка большого количества зависимостей + фиксы различных ошибок. Однако, с помощью гугла все решается довольно легко :-)</p>
+
+<p>Оставлю здесь ссылочку на оригинальную статью:</p>
+
+<ul>
+  <li><a href="https://htmlblog.github.io/plugin-adminka-dlja-jekyll">Html Blog</a></li>
+</ul>
+
+
+  <button class="back-button" onclick="history.back();">
+    <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+    <span>Назад</span>
+  </button>
+
+
+<aside class="related">
+  <h3>Другие посты</h3>
+  <ul class="related-posts row">
+    
+      <li class="col-md-3 col-sm-4 col-xs-12">
+        <a href="/develop/2019/02/20/tags-categories/">
+          <div
+            class="related-post-image"
+            style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('/img/social.jpg');"
+          >
+            Теги и категории
+            <small><time datetime="2019-02-20T00:00:00+03:00">20-02-2019</time></small>
+          </div>
+        </a>
+      </li>
+    
+      <li class="col-md-3 col-sm-4 col-xs-12">
+        <a href="/common/2019/02/17/introduction/">
+          <div
+            class="related-post-image"
+            style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('/img/typewriter.jpg');"
+          >
+            Начнем?
+            <small><time datetime="2019-02-17T00:00:00+03:00">17-02-2019</time></small>
+          </div>
+        </a>
+      </li>
+    
+  </ul>
+</aside>
+
 
       </main>
     </div>
