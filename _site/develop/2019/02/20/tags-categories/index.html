@@ -13,7 +13,7 @@
 
   <title>
     
-      Теги и категории &middot; Stanislav Kryzhanovsky
+      Теги и категории в Jekyll &middot; Stanislav Kryzhanovsky
     
   </title>
   <link rel="stylesheet" href="/styles.css">
@@ -77,19 +77,36 @@
     class="post-wrapper"
     style="background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),url('/img/social.jpg');"
   >
-    <h1 class="post-title">Теги и категории</h1>
+    <h1 class="post-title">Теги и категории в Jekyll</h1>
     <time datetime="2019-02-20T00:00:00+03:00" class="post-date">20-02-2019</time>
+    
+      <div class="tags-post">
+      
+        <span class="label label-tags">#Jekyll</span>
+      
+        <span class="label label-tags">#Tags</span>
+      
+        <span class="label label-tags">#Categories</span>
+      
+      </div>
+    
   </div>
   <h3 id="Используем-теги-и-категории-постов">Используем теги и категории постов</h3>
 
-<p>Jekyll позволяет граппировать посты по категориям и добавлять в кажды пост индивидуальные теги. Это очень удобно и позволяет читателю быстро найти интересующую его тему в творениях автора.</p>
+<p>Jekyll позволяет группировать посты по категориям и добавлять в каждый пост индивидуальные теги. Это очень удобно и позволяет читателю быстро найти нужную его тему в блоге.</p>
 
 <hr />
 
-<p>Теги и категории являются глобальными переменными в сайте, т.е. ими очень легко оперировать при помощи циклов if и for!</p>
+<p>Теги и категории являются глобальными переменными в Jekyll, т.е. ими очень легко оперировать при помощи циклов if и for:</p>
 
 <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+{% for category in site.categories %}
+  &lt;p&gt;{{ category }}&lt;/p&gt;
+{% endfor %}
 
+{% for tag in site.tags %}
+  &lt;p&gt;{{ tag }}&lt;/p&gt;
+{% endfor %}
 
 </code></pre></div></div>
 
@@ -110,9 +127,9 @@ tags:
 
 <hr />
 
-<p>Это позволяет авторам организовать шаблоны для работы с ними, что добавляет блогу удобство и функциональность!</p>
+<p>Это позволяет авторам организовать шаблоны для работы с ними, а также добавляет блогу удобство и функциональность!</p>
 
-<p>Подробнее об использовании переменных в Jekyll можно почитать <a href="http://prgssr.ru/documentation/12_variables">тут</a></p>
+<p>Подробнее об использовании переменных в Jekyll можно почитать <a href="http://prgssr.ru/documentation/12_variables">тут</a>.</p>
 
 
   <button class="back-button" onclick="history.back();">
@@ -157,7 +174,7 @@ tags:
     </div>
     <footer class="footer">
       <small>
-        &copy; <time datetime="2019-02-20T21:15:56+03:00">2019</time>. Stanislav Kryzhanovsky
+        &copy; <time datetime="2019-02-20T21:37:29+03:00">2019</time>. Stanislav Kryzhanovsky
       </small>
       <div class="social-buttons">
         <a class="text-white" href="https://github.com/stanislavec"><button type="button" class="btn btn-github --mr-10"><i class="fa fa-github --pr-10"></i><span class="hidden-xs">GitHub</span></button></a>

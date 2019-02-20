@@ -4,7 +4,7 @@
  <title>Stanislav Kryzhanovsky</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-02-20T21:15:56+03:00</updated>
+ <updated>2019-02-20T21:37:29+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Stanislav Kryzhanovsky</name>
@@ -13,20 +13,26 @@
 
  
  <entry>
-   <title>Теги и категории</title>
+   <title>Теги и категории в Jekyll</title>
    <link href="http://localhost:4000/develop/2019/02/20/tags-categories/"/>
    <updated>2019-02-20T00:00:00+03:00</updated>
    <id>http://localhost:4000/develop/2019/02/20/tags-categories</id>
    <content type="html">&lt;h3 id=&quot;Используем-теги-и-категории-постов&quot;&gt;Используем теги и категории постов&lt;/h3&gt;
 
-&lt;p&gt;Jekyll позволяет граппировать посты по категориям и добавлять в кажды пост индивидуальные теги. Это очень удобно и позволяет читателю быстро найти интересующую его тему в творениях автора.&lt;/p&gt;
+&lt;p&gt;Jekyll позволяет группировать посты по категориям и добавлять в каждый пост индивидуальные теги. Это очень удобно и позволяет читателю быстро найти нужную его тему в блоге.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Теги и категории являются глобальными переменными в сайте, т.е. ими очень легко оперировать при помощи циклов if и for!&lt;/p&gt;
+&lt;p&gt;Теги и категории являются глобальными переменными в Jekyll, т.е. ими очень легко оперировать при помощи циклов if и for:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+{% for category in site.categories %}
+  &amp;lt;p&amp;gt;{{ category }}&amp;lt;/p&amp;gt;
+{% endfor %}
 
+{% for tag in site.tags %}
+  &amp;lt;p&amp;gt;{{ tag }}&amp;lt;/p&amp;gt;
+{% endfor %}
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -47,9 +53,9 @@ tags:
 
 &lt;hr /&gt;
 
-&lt;p&gt;Это позволяет авторам организовать шаблоны для работы с ними, что добавляет блогу удобство и функциональность!&lt;/p&gt;
+&lt;p&gt;Это позволяет авторам организовать шаблоны для работы с ними, а также добавляет блогу удобство и функциональность!&lt;/p&gt;
 
-&lt;p&gt;Подробнее об использовании переменных в Jekyll можно почитать &lt;a href=&quot;http://prgssr.ru/documentation/12_variables&quot;&gt;тут&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Подробнее об использовании переменных в Jekyll можно почитать &lt;a href=&quot;http://prgssr.ru/documentation/12_variables&quot;&gt;тут&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
