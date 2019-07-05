@@ -4,7 +4,7 @@
  <title>Stanislav Kryzhanovsky</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-02-28T19:53:41+03:00</updated>
+ <updated>2019-07-05T10:38:42+03:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Stanislav Kryzhanovsky</name>
@@ -106,7 +106,8 @@ end
 Традиционно, здесь перечисляют всякие штуки, с которыми приходится работать или приходилось ранее:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ru.vuejs.org/&quot;&gt;VueJS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ru.vuejs.org/&quot;&gt;Vue.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://reactjs.org/&quot;&gt;React.js&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://learn.javascript.ru/intro&quot;&gt;Native JS&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://angular.io/&quot;&gt;Angular&lt;/a&gt;&lt;/li&gt;

@@ -17,7 +17,8 @@ tags:
 Меня зовут Стас, и я занимаюсь frontend-разработкой.
 Традиционно, здесь перечисляют всякие штуки, с которыми приходится работать или приходилось ранее:
 
-* [VueJS](https://ru.vuejs.org/)
+* [Vue.js](https://ru.vuejs.org/)
+* [React.js](https://reactjs.org/)
 * [Native JS](https://learn.javascript.ru/intro)
 * [jQuery](https://jquery.com/)
 * [Angular](https://angular.io/)

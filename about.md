@@ -12,6 +12,7 @@ title: О блоге
 Традиционно, здесь перечисляют всякие штуки, с которыми приходится работать или приходилось ранее:
 
 * [VueJS](https://ru.vuejs.org/)
+* [React.js](https://reactjs.org/)
 * [Native JS](https://learn.javascript.ru/intro)
 * [jQuery](https://jquery.com/)
 * [Angular](https://angular.io/)

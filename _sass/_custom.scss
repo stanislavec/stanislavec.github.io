@@ -110,7 +110,7 @@ nav {
     outline-offset: unset;
   }
   button {
-    width: 120px;
+    width: 140px;
   }
 }
 
@@ -330,4 +330,14 @@ main {
     opacity: 1;
     font-size: 25px;
   }
+}
+
+.error-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: 60vh;
+  background-image: url(../img/404.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
